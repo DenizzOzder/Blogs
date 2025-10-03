@@ -2,6 +2,7 @@
 
 Bu repo, geliştirdiğim **blog tabanlı projeleri** tek bir yerde toplamak için oluşturuldu.  
 Her blog, farklı bir branch altında yer almakta ve farklı konseptleri/teknolojileri barındırmaktadır.  
+![Funny GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnQ0Nm9kNWx1czB2Ymd1bWtteWExdXVrNGxkNWhpM3Bja3BocnlxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7qE1YN7aBOFPRw8E/giphy.gif)
 
 ---
 
