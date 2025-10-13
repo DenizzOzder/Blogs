@@ -1,454 +1,486 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="tr">
   <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/public/favicon.png"
+      sizes="32x32"
+    />
+    <link rel="apple-touch-icon" href="/public/apple-touch-icon.png" />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./src/css/style.css">
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/src/css/style.css" />
 
-  <!-- Primary SEO -->
-  <title>Best Random Video Chat Apps – Safe & Global</title>
-  <link rel="canonical" href="https://randomvideochat.best" />
-  <meta name="description" content="Explore top Omegle alternatives with safety filters, roulette & topic rooms, and interest-based matching. Fast, fun random video chat on mobile and desktop." />
-  <meta name="robots" content="index,follow,max-image-preview:large" />
+    <!-- Primary SEO -->
+    <title>Cadde5 – Güvenli ve Adil Görüntülü Sohbet Platformu</title>
+    <link rel="canonical" href="https://cadde5.net/" />
+    <link rel="alternate" href="https://cadde5.net/" hreflang="tr-TR" />
+    <meta
+      name="description"
+      content="Cadde5, 10+ yıllık deneyimiyle güvenli, kaliteli ve her cüzdana uygun görüntülü sohbet platformu. Adil gelir paylaşımı, güçlü gizlilik ve modern altyapı."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#1f2937" />
 
-  <!-- Open Graph (Facebook/LinkedIn/WhatsApp) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Random Video Chat" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:url" content="https://randomvideochat.best" />
-  <meta property="og:title" content="Best Random Video Chat Apps – Safe & Global" />
-  <meta property="og:description" content="Meet new people instantly. Safer random video chat with smart filters, topic rooms, and cross-platform access." />
-  <!-- OG image: 1200x630 önerilir; .webp kullanıyoruz -->
-  <meta property="og:image" content="https://randomvideochat.best/src/img/blog-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:type" content="image/webp" />
+    <!-- Open Graph (Facebook/LinkedIn/WhatsApp) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Cadde5" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:url" content="https://cadde5.net/" />
+    <meta
+      property="og:title"
+      content="Cadde5 – Güvenli ve Adil Görüntülü Sohbet Platformu"
+    />
+    <meta
+      property="og:description"
+      content="Güvenli iletişim, adil paylaşım, modern altyapı. Cadde5 ile her bütçeye uygun görüntülü sohbet deneyimi."
+    />
+    <!-- OG image: 1200x630 önerilir; .webp -->
+    <meta
+      property="og:image"
+      content="https://cadde5.net/src/img/cadde5-og.webp"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/webp" />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@yourhandle" />
-  <meta name="twitter:title" content="Best Random Video Chat Apps – Safe & Global" />
-  <meta name="twitter:description" content="Safer random video chat with smart filters, topic rooms, and cross-platform access." />
-  <meta name="twitter:image" content="https://randomvideochat.best/src/img/blog-image.png" />
-</head>
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@cadde5" />
+    <meta
+      name="twitter:title"
+      content="Cadde5 – Güvenli ve Adil Görüntülü Sohbet Platformu"
+    />
+    <meta
+      name="twitter:description"
+      content="10+ yıllık deneyim. Güvenli, adil ve her cüzdana uygun görüntülü sohbet."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cadde5.net/src/img/cadde5-og.webp"
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cadde5",
+        "url": "https://cadde5.net/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://cadde5.net/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cadde5",
+        "url": "https://cadde5.net/",
+        "logo": "https://cadde5.net/public/favicon.svg",
+        "sameAs": [
+          "https://www.facebook.com/cadde5",
+          "https://x.com/cadde5",
+          "https://www.instagram.com/cadde5",
+          "https://www.youtube.com/@cadde5"
+        ]
+      }
+    </script>
+  </head>
   <body>
     <header>
       <section class="container">
-        <a href="#" class="head"><h1>Random Video Chat</h1></a>
+        <a href="/" class="head"><h1>Cadde5 Görüntülü Sohbet</h1></a>
       </section>
     </header>
+
     <main>
-        <section class="hero">
-          <section class="hero-main">
-              <section class="chat-section">
-                <div id='coomeet_container' style='width:100'>
-                  <script type='text/javascript'>
-                    var _coomeet = [];
-                    _coomeet['PartnerId'] = 17098963815615;
-                    (function () {
-                      var coomeet = document.createElement('script'); coomeet.type = 'text/javascript'; coomeet.async = true;
-                      coomeet.src = 'https://iframe.coomeet.me/js/code.js';
-                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(coomeet, s);
-                    })();
-                    _coomeet['appDomain'] = 'me';
-                  </script>
-                </div>
-              </section>
-              </div>
-            </section>
+      <section class="hero">
+        <section class="hero-main">
+          <section class="chat-section" aria-label="Cadde5 canlı sohbet alanı">
+            <div id="coomeet_container" style="width: 100%">
+              <script type="text/javascript">
+                var _coomeet = [];
+                _coomeet["PartnerId"] = 17098963815615;
+                (function () {
+                  var coomeet = document.createElement("script");
+                  coomeet.type = "text/javascript";
+                  coomeet.async = true;
+                  coomeet.src = "https://iframe.coomeet.me/js/code.js";
+                  var s = document.getElementsByTagName("script")[0];
+                  s.parentNode.insertBefore(coomeet, s);
+                })();
+                _coomeet["appDomain"] = "me";
+              </script>
+            </div>
           </section>
-        </section> 
-        <section class="about">
-          <section class="container">
-            <ul class="about-list">
-              <li class="about-items">
-                <section class="list-container">
-                  <svg class="icon">
-                    <use href="./public/symbol-defs.svg#icon-video"></use>
-                  </svg>
-                  <p class="about-text">Live Chat</p>
-                  <p class="about-content">Instantly connect and start video chatting with real people.</p>
+        </section>
+      </section>
+      <section class="apps">
+        <section class="container">
+          <section class="app-wrapper">
+            <h2>Cadde5 – Güvenin, Kalitenin ve Dengenin Adresi</h2>
+            <ul class="app-list">
+              <li class="app-items">
+                <img
+                  src="/src/img/cd5.webp"
+                  alt="Cadde5 görüntülü sohbet görseli"
+                  class="app-img"
+                  loading="lazy"
+                  width="1200"
+                  height="630"
+                />
+                <p>
+                  10 yılı aşkın süredir dijital dünyada istikrarla büyüyen
+                  Cadde5, kullanıcılarına güvenilir, kaliteli ve adil bir
+                  platform sunma misyonuyla yola çıktı. Her geçen yıl gelişen
+                  teknolojiyi ve değişen kullanıcı ihtiyaçlarını yakından takip
+                  eden Cadde5, üye ve yayıncı arasındaki dengeyi koruyarak
+                  sektörde kendine sağlam bir yer edindi. Cadde5’te kalite bir
+                  tercih değil, bir standarttır. Her kullanıcı için
+                  erişilebilir, her yayıncı için adil bir sistem sunar. İster
+                  izleyici olun ister içerik üreticisi — Cadde5’te herkes aynı
+                  güven ve saygı çerçevesinde bir araya gelir.
+                </p>
+
+                <section class="app-features">
+                  <h4 class="features-head">💡Neden Cadde5?</h4>
+                  <ul class="features-list">
+                    <li class="features item">
+                      <p class="feature-content">
+                        <span class="feature-strong">10+ yıllık deneyim: </span
+                        >Cadde5, on yılı aşkın süredir dijital iletişim
+                        sektöründe istikrarlı bir şekilde varlığını sürdürüyor.
+                        Sadece teknolojiyi değil, insan davranışlarını ve
+                        değişen iletişim alışkanlıklarını da yakından takip
+                        ederek kendini sürekli yeniledi. Bu sayede her dönem
+                        kullanıcı beklentilerine uyum sağlayan, sektörde
+                        güvenilirliğiyle öne çıkan bir marka haline geldi.
+                        Deneyimi, bugünü yakalayan vizyonuyla birleştirerek
+                        geleceğe emin adımlarla ilerleyen bir platformdur.
+                      </p>
+                    </li>
+                    <li class="features item">
+                      <p class="feature-content">
+                        <span class="feature-strong"> Güvenilir altyapı: </span
+                        >Cadde5, kullanıcı gizliliğini temel öncelik olarak
+                        belirlemiştir. Platform, uluslararası güvenlik
+                        protokollerine (SSL, GDPR, PCI DSS vb.) uygun şekilde
+                        geliştirilmiş altyapısıyla tüm veri alışverişini şifreli
+                        olarak gerçekleştirir. Bu sadece bir vaat değil,
+                        kullanıcıların her oturumda hissedebildiği somut bir
+                        güvendir. Yayıncıların kazançları güvenli ödeme
+                        sistemleriyle korunur, kullanıcı kimlikleri asla üçüncü
+                        kişilerle paylaşılmaz. Cadde5’te gizlilik, bir seçenek
+                        değil; bir standarttır.
+                      </p>
+                    </li>
+                    <li class="features item">
+                      <p class="feature-content">
+                        <span class="feature-strong"
+                          >Adil paylaşım sistemi: </span
+                        >Cadde5’in fark yarattığı en önemli alanlardan biri
+                        adaletli gelir paylaşım sistemidir. Pek çok platformda
+                        göz ardı edilen yayıncı emeği, burada değer görür.
+                        Yayıncıların kazançları şeffaf biçimde hesaplanır,
+                        sistem herkes için anlaşılır ve denetlenebilir şekilde
+                        çalışır. Kullanıcılar ise adil ücretlendirme politikası
+                        sayesinde harcadıkları kadar değer alır. Bu denge,
+                        Cadde5’i sıradan bir sohbet platformundan çıkarıp güven
+                        temelli bir topluluk alanına dönüştürür.
+                      </p>
+                    </li>
+                    <li class="features item">
+                      <p class="feature-content">
+                        <span class="feature-strong">Her bütçeye uygun: </span
+                        >Cadde5, “herkesin iletişim kurmaya hakkı var”
+                        anlayışını benimseyerek, fiyat politikasını herkesin
+                        ulaşabileceği şekilde oluşturdu. Farklı abonelik
+                        planları, esnek kullanım seçenekleri ve dönemsel
+                        kampanyalarla her kullanıcı kendi bütçesine uygun
+                        deneyimi seçebilir. Bu sayede platform, yalnızca belirli
+                        bir kesime değil; tüm topluma hitap eden bir yapıya
+                        sahiptir. İster yeni bir kullanıcı olun ister uzun
+                        süredir yayın yapan biri — Cadde5’te herkes eşit değerde
+                        yer bulur.
+                      </p>
+                    </li>
+                  </ul>
+                </section>
+                <section class="table-wrapper">
+                  <table class="app-table">
+                    <thead>
+                      <tr>
+                        <th>Cadde5</th>
+                        <th>Farklı Platformlar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>10+ yıllık deneyim ve oturmuş kullanıcı güveni</td>
+                        <td>
+                          Yeni kurulan platformlarda güven sorunları ve sistem
+                          kararsızlıkları
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Üye-yayıncı arasında adil gelir paylaşımı</td>
+                        <td>
+                          Çoğu platformda yayıncı kazanç oranları belirsiz veya
+                          düşük
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Gelişmiş güvenlik altyapısı ve tam gizlilik garantisi
+                        </td>
+                        <td>
+                          Veri koruma ve kullanıcı gizliliği çoğu platformda
+                          ikinci planda
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Her bütçeye uygun esnek ve ulaşılabilir fiyat
+                          politikası
+                        </td>
+                        <td>
+                          Yüksek ücretli Premium planlar, sınırlı ücretsiz
+                          erişim
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Modern, sürekli güncellenen kullanıcı arayüzü</td>
+                        <td>
+                          Eski tasarımlar, yavaş yükleme süreleri ve mobil
+                          uyumsuzluk
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Aktif moderasyon ve topluluk yönetimi</td>
+                        <td>Denetimsiz sohbet ortamları, güvenlik eksikleri</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+
+                <p class="app-pricing">
+                  <span class="feature-strong">Fiyatlandırma: </span>
+                  Ücretsiz kullanım seçeneği + her cüzdana uygun Premium planlar
+                </p>
+
+                <section class="app-rating">⭐⭐⭐⭐⭐ (4.9/5)</section>
+
+                <a
+                  href="https://cadde5.net"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-app"
+                  >Cadde5'i Ziyaret Et</a
+                >
+              </li>
+              <li class="app-items">
+                <h2>Cadde5 – Görüntülü Sohbetin Evriminde Güvenin Adresi</h2>
+                <p>
+                  Dijital çağın en heyecan verici dönemlerinden biri, insanların
+                  birbirine sadece kelimelerle değil, göz göze iletişim
+                  kurabildiği dönemin başlamasıydı. Bir zamanlar sadece yazı
+                  tabanlı mesajlaşmalarla sınırlı olan internet dünyası, 2010’lu
+                  yılların başında yepyeni bir kapı araladı: görüntülü sohbet
+                  platformları.
+                </p>
+                <p>
+                  O dönemlerde bu platformlar, dünyanın dört bir yanından
+                  insanları anlık olarak buluşturmanın büyüsünü taşıyordu. Bir
+                  tıklamayla bambaşka bir ülkeden biriyle tanışmak, kültürleri
+                  keşfetmek, dil pratiği yapmak veya sadece keyifli vakit
+                  geçirmek mümkündü. Ancak zamanla, hızla büyüyen bu dijital
+                  pazarın içinde kalite, güven ve denge kavramları geri plana
+                  itilmeye başladı. Birçok platform, kullanıcı deneyimini ikinci
+                  plana alarak reklam, denetimsizlik ve dengesiz gelir
+                  modelleriyle kendi itibarını zedeledi.
+                </p>
+                <p>
+                  İşte tam bu noktada Cadde5 doğdu. Amacı basit ama iddialıydı:
+                </p>
+                <h4>“Görüntülü sohbetin insani tarafını geri getirmek.”</h4>
+              </li>
+              <li class="app-items">
+                <section class="about" aria-label="Hakkında">
+                  <section class="container">
+                    <ul class="about-list">
+                      <li class="about-items">
+                        < class="list-container">
+                          <svg class="icon" aria-hidden="true">
+                            <use
+                              href="/public/symbol-defs.svg#icon-video"
+                            ></use>
+                          </svg>
+                          <p class="about-text">Canlı Sohbet</p>
+                          <p class="about-content">
+                            Gerçek insanlarla anında bağlan, görüntülü sohbeti başlat.
+                          </p>
+                        </section>
+                      </li>
+                      <li class="about-items">
+                        <section class="list-container">
+                          <svg class="icon" aria-hidden="true">
+                            <use
+                              href="/public/symbol-defs.svg#icon-secure"
+                            ></use>
+                          </svg>
+                          <p class="about-text">Güvenli Platform</p>
+                          <p class="about-content">
+                            Tüm görüşmeler şifreli ve gizlilik öncelikli olarak yürütülür.
+                          </p>
+                        </section>
+                      </li>
+                      <li class="about-items">
+                        <section class="list-container">
+                          <svg class="icon" aria-hidden="true">
+                            <use
+                              href="/public/symbol-defs.svg#icon-global"
+                            ></use>
+                          </svg>
+                          <p class="about-text">Küresel Erişim</p>
+                          <p class="about-content">
+                            Dünyanın her yerinden kullanıcılarla istediğin an tanış.
+                          </p>
+                        </section>
+                      </li>
+                    </ul>
+                  </section>
                 </section>
               </li>
-              <li class="about-items">
-                <section class="list-container">
-                  <svg class="icon">
-                    <use href="./public/symbol-defs.svg#icon-secure"></use>
-                  </svg>
-                  <p class="about-text">Secure Platform</p>
-                  <p class="about-content">All chats are private and secure for your protection.</p>
-                </section>
-              </li>
-              <li class="about-items">
-                <section class="list-container">
-                  <svg class="icon">
-                    <use href="./public/symbol-defs.svg#icon-global"></use>
-                  </svg>
-                  <p class="about-text">Global Access</p>
-                  <p class="about-content">Meet people from all over the world anytime you want.</p>
-                </section>
+              <li class="app-items">
+                <h3>🏙️ Bir Platformdan Fazlası: Cadde5’in Doğuşu</h3>
+                <p>
+                  Cadde5, 10 yılı aşkın süredir dijital iletişimin merkezinde
+                  yer alan bir platform. Kurulduğu günden bu yana misyonu,
+                  kullanıcıların sadece bağlantı kurduğu değil, kendini güvende
+                  hissettiği bir ortam yaratmak oldu. Yayıncılar için adil
+                  kazanç, kullanıcılar için keyifli deneyim, her iki taraf için
+                  de karşılıklı saygı temeli üzerine inşa edildi.
+                </p>
+                <p>
+                  Adını, şehirlerin en hareketli, en canlı ve en güvenilir
+                  yerlerinden biri olan “Cadde” kavramından alır. Cadde5, tıpkı
+                  bir kentin merkezindeki o renkli caddeler gibi; herkesin
+                  uğradığı, yeni insanlarla tanıştığı, farklı hikâyelerin
+                  kesiştiği bir dijital buluşma noktasıdır.
+                </p>
+                <h3>⚖️ Denge ve Güvenin Önemi</h3>
+                <p>
+                  Görüntülü sohbet sektöründe en büyük zorluk, üye ile yayıncı
+                  arasındaki dengeyi koruyabilmektir. Bir tarafı memnun etmek
+                  genellikle diğer tarafın memnuniyetinden ödün vermek anlamına
+                  gelir. Cadde5, bu kısır döngüyü kırarak, her iki taraf için de
+                  adil bir sistem geliştirdi. Yayıncılar için: Şeffaf kazanç
+                  modelleri, kolay ödeme sistemleri ve platform desteği.
+                  Kullanıcılar için: Güvenli iletişim, yüksek kalite, hızlı
+                  bağlantı ve kişisel gizlilik garantisi. Bu yaklaşım sayesinde
+                  Cadde5, sadece bir sohbet platformu değil, aynı zamanda
+                  dijital güvenin sembolü haline geldi.
+                </p>
+                <h3>💡Teknoloji Değişti, Değerler Değil</h3>
+                <p>
+                  Bugün yapay zekâ destekli eşleştirme sistemleri, yüksek
+                  çözünürlüklü görüntü kalitesi ve anlık çeviri teknolojileriyle
+                  görüntülü sohbet dünyası bambaşka bir noktada. Ancak tüm bu
+                  yeniliklerin arasında kaybolmadan, Cadde5 ilk günkü
+                  felsefesini korumaya devam ediyor. Cadde5’in başarısı, sadece
+                  modern bir altyapıya sahip olmasından değil; insan merkezli
+                  bir platform olmasından geliyor. Burada algoritmalar değil,
+                  insan hikâyeleri ön planda.
+                </p>
+                <h3>🔒 Güvenlik ve Kalite Standartları</h3>
+                <p>
+                  Dijital ortamda güven, sadece teknik altyapıyla değil;
+                  yaklaşımla sağlanır. Cadde5, kullanıcı verilerini korumak için
+                  uluslararası standartlarda güvenlik protokolleri uygular. Her
+                  yeni özellik, hem gizlilik hem de kullanıcı deneyimi açısından
+                  test edilerek hayata geçirilir. Böylece kullanıcılar, gönül
+                  rahatlığıyla platformu deneyimlerken, yayıncılar da
+                  profesyonel bir ortamda içerik üretebilir.
+                </p>
+                <h3>🕊️ Cadde5 Bugün ve Gelecek</h3>
+                <p>
+                  Bugün Cadde5, binlerce aktif kullanıcı ve yayıncısıyla kendi
+                  topluluğunu oluşturmuş durumda. Her gün yüzlerce yeni sohbet
+                  başlıyor, binlerce farklı hikâye paylaşılıyor. Ama Cadde5 için
+                  bu sadece bir başlangıç. Gelecek hedefi, yapay zekâ destekli
+                  moderasyon sistemleri, artırılmış gerçeklik destekli sohbet
+                  deneyimleri ve daha akıllı kullanıcı eşleşmeleriyle görüntülü
+                  iletişimin geleceğini şekillendirmek.
+                </p>
               </li>
             </ul>
           </section>
         </section>
-        <section class="apps">
-          <section class="container">
-            <section class="app-wrapper">
-              <h2>Best Random Video Chat Apps</h2>
-              <ul class="app-list">
-                <li class="app-items">
-                  <h3 class="app-name">1. OmeTV App</h3>
-                  <img src="./src/img/ometv.webp" alt="OmeTV Video Chat" class="app-img">
-                  <p>
-                    OmeTV is one of the most popular alternatives to Omegle, offering a modern, user-friendly, and safe platform for
-                    people who want to connect with strangers worldwide. With millions of users across different countries, the app is
-                    designed to make online conversations fun, spontaneous, and secure. Whether you’re looking to make new friends,
-                    practice a foreign language, or simply enjoy casual video chats, OmeTV provides an interactive experience that
-                    appeals
-                    to a global audience.
-                  </p>
-                  <section class="app-features">
-                    <h4 class="features-head">Key Features</h4>
-                    <ul class="features-list">
-                      <li class="features item">
-                        <p class="feature-content"><span class="feature-strong">Instant Video Chats: </span>Connect instantly with
-                          people from around the world and start a conversation without delays. With a simple interface and fast
-                          connections, meeting new friends has never been easier.</p>
-                      </li>
-                      <li class="features item">
-                        <p class="feature-content"><span class="feature-strong">Smart Matchmaking: </span>The platform suggests chat
-                          partners based on your interests, making your conversations more engaging and meaningful while helping you
-                          find people with similar hobbies and goals.</p>
-                      </li>
-                      <li class="features item">
-                        <p class="feature-content"><span class="feature-strong">Safe & Secure Environment: </span>Your privacy and
-                          safety come first. A built-in moderation system ensures a positive experience by filtering out unwanted
-                          behavior and keeping the community friendly.</p>
-                      </li>
-                      <li class="features item">
-                        <p class="feature-content"><span class="feature-strong">Cross-Platform Access: </span>Use the app anytime,
-                          anywhere—whether on your phone, tablet, or desktop. Switch devices effortlessly and enjoy continuous,
-                          uninterrupted conversations wherever you are.</p>
-                      </li>
-                    </ul>
-                  </section>
-                  <section class="table-wrapper">
-                    <table class="app-table">
-                      <thead>
-                        <tr>
-                          <th>Pros</th>
-                          <th>Cons</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Clean and easy-to-use interface</td>
-                          <td>Free version includes ads</td>
-                        </tr>
-                        <tr>
-                          <td>Large international user base</td>
-                          <td>Random matches can be hit-or-miss</td>
-                        </tr>
-                        <tr>
-                          <td>Active moderation and safety filters</td>
-                          <td>Fewer extra features than some competitors</td>
-                        </tr>
-                        <tr>
-                          <td>Available on both desktop and mobile apps</td>
-                          <td>Premium features are limited</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </section>
-                  <p class="app-pricing"><span class="feature-strong">Pricing: </span>Free with ads / Premium plan available</p>
-                  <section class="app-rating">⭐⭐⭐⭐☆ (4/5)</section>
-                  <a href="https://ome.tv" target="_blank" class="btn-app">Visit Site</a>
-                </li>
-                
-                <li class="app-items">
-                  <h3 class="app-name">2. Emerald Chat</h3>
-                  <img src="./src/img/emeralnew.webp" alt="Emerald Chat App" class="app-img">
-                  <p>
-                    Emerald Chat positions itself as a modern, clean, and safe chatting platform for those who want more than random
-                    conversations. Known as the “Omegle alternative with a twist,” it emphasizes quality interactions with real people
-                    while keeping the experience spam-free and secure.
-                  </p>
-                  <section class="app-features">
-                    <h4 class="features-head">Key Features</h4>
-                    <ul class="features-list">
-                      <li>
-                        <p><span class="feature-strong">Interest-Based Matches: </span>Find like-minded people by selecting your hobbies
-                          and topics before starting.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Anonymous Text & Video: </span>Choose between full video chats or stay anonymous
-                          with text-only mode.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">AI-Driven Filters: </span>Automated moderation removes bots and inappropriate
-                          users in real-time.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Community Reputation: </span>Users can earn trust points for positive behavior
-                          and respectful chats.</p>
-                      </li>
-                    </ul>
-                  </section>
-                  <section class="table-wrapper">
-                    <table class="app-table">
-                      <thead>
-                        <tr>
-                          <th>Pros</th>
-                          <th>Cons</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>High-quality matches with shared interests</td>
-                          <td>Requires account signup</td>
-                        </tr>
-                        <tr>
-                          <td>Strong anti-spam filters</td>
-                          <td>Video features limited for free users</td>
-                        </tr>
-                        <tr>
-                          <td>Modern and minimal interface</td>
-                          <td>Less popular than OmeTV</td>
-                        </tr>
-                        <tr>
-                          <td>Encourages positive community</td>
-                          <td>Trust system may feel restrictive</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </section>
-                  <p class="app-pricing"><span class="feature-strong">Pricing: </span>Free basic plan / Premium from $4.99 per month</p>
-                  <section class="app-rating">⭐⭐⭐⭐⭐ (4.5/5)</section>
-                  <a href="https://emeraldchat.com" target="_blank" class="btn-app">Visit Site</a>
-                </li>
-                
-                <li class="app-items">
-                  <h3 class="app-name">3. ChatRandom</h3>
-                  <img src="./src/img/random.webp" alt="ChatRandom App" class="app-img">
-                  <p>
-                    ChatRandom gives users the thrill of spontaneous video encounters with strangers worldwide. With a focus on speed
-                    and variety, it’s the go-to choice for people who want instant fun without complicated setups. No accounts, no
-                    hassle—just chat and go.
-                  </p>
-                  <section class="app-features">
-                    <h4 class="features-head">Key Features</h4>
-                    <ul class="features-list">
-                      <li>
-                        <p><span class="feature-strong">One-Click Connections: </span>Jump into a random chat instantly with no signup
-                          required.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Gender & Location Filters: </span>Narrow down matches based on your preferences.
-                        </p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Group Chat Rooms: </span>Join themed rooms to meet multiple people at once.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Mobile-Friendly: </span>Optimized for fast use on smartphones and tablets.</p>
-                      </li>
-                    </ul>
-                  </section>
-                  <section class="table-wrapper">
-                    <table class="app-table">
-                      <thead>
-                        <tr>
-                          <th>Pros</th>
-                          <th>Cons</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Quick and easy to use</td>
-                          <td>Basic design compared to competitors</td>
-                        </tr>
-                        <tr>
-                          <td>No registration needed</td>
-                          <td>Ads can be intrusive</td>
-                        </tr>
-                        <tr>
-                          <td>Large number of users online at once</td>
-                          <td>Limited moderation</td>
-                        </tr>
-                        <tr>
-                          <td>Fun themed group chats</td>
-                          <td>Filters require premium</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </section>
-                  <p class="app-pricing"><span class="feature-strong">Pricing: </span>Free access / Premium filters $9.99 per month</p>
-                  <section class="app-rating">⭐⭐⭐☆☆ (3/5)</section>
-                  <a href="https://chatrandom.com" target="_blank" class="btn-app">Visit Site</a>
-                </li>
-                
-                <li class="app-items">
-                  <h3 class="app-name">4. CooMeet</h3>
-                  <img src="./src/img/coomet.webp" alt="CooMeet App" class="app-img">
-                  <p>
-                    CooMeet focuses on verified female-to-male video chats, making it stand out as one of the most unique platforms in
-                    the space. It guarantees authentic conversations by ensuring that all female users are real and verified, which
-                    reduces fake accounts significantly.
-                  </p>
-                  <section class="app-features">
-                    <h4 class="features-head">Key Features</h4>
-                    <ul class="features-list">
-                      <li>
-                        <p><span class="feature-strong">Verified Female Users: </span>Every female user is verified to ensure
-                          authenticity.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Private Video Calls: </span>One-on-one secure video chat environment.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">HD Streaming Quality: </span>Smoother video calls with high-resolution support.
-                        </p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Built-in Translator: </span>Break language barriers with instant translations.
-                        </p>
-                      </li>
-                    </ul>
-                  </section>
-                  <section class="table-wrapper">
-                    <table class="app-table">
-                      <thead>
-                        <tr>
-                          <th>Pros</th>
-                          <th>Cons</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Real verified users</td>
-                          <td>Not free—trial is limited</td>
-                        </tr>
-                        <tr>
-                          <td>Excellent video quality</td>
-                          <td>Mainly targeted at male users</td>
-                        </tr>
-                        <tr>
-                          <td>Translation tools included</td>
-                          <td>Requires account and payment</td>
-                        </tr>
-                        <tr>
-                          <td>Exclusive and secure</td>
-                          <td>Smaller user base compared to others</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </section>
-                  <p class="app-pricing"><span class="feature-strong">Pricing: </span>Premium only – starts from $2.99/day or
-                    $19.99/month</p>
-                  <section class="app-rating">⭐⭐⭐⭐⭐ (5/5)</section>
-                  <a href="https://coomeet.com" target="_blank" class="btn-app">Visit Site</a>
-                </li>
-                
-                <li class="app-items">
-                  <h3 class="app-name">5. Shagle</h3>
-                  <img src="./src/img/shagle.webp" alt="Shagle App" class="app-img">
-                  <p>
-                    Shagle is a free online video chat platform that emphasizes global reach and inclusivity. It offers unique perks
-                    like virtual masks, gender filters, and dedicated chat categories, giving users more control over who they connect
-                    with.
-                  </p>
-                  <section class="app-features">
-                    <h4 class="features-head">Key Features</h4>
-                    <ul class="features-list">
-                      <li>
-                        <p><span class="feature-strong">Gender & Country Filters: </span>Choose who you want to meet with precise search
-                          options.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Virtual Masks: </span>Add fun filters to your camera for playful and anonymous
-                          chats.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">Themed Chat Categories: </span>Pick from various topics and communities to meet
-                          like-minded people.</p>
-                      </li>
-                      <li>
-                        <p><span class="feature-strong">No Signup Needed: </span>Jump right into conversations without creating an
-                          account.</p>
-                      </li>
-                    </ul>
-                  </section>
-                  <section class="table-wrapper">
-                    <table class="app-table">
-                      <thead>
-                        <tr>
-                          <th>Pros</th>
-                          <th>Cons</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Completely free to use</td>
-                          <td>Video quality varies</td>
-                        </tr>
-                        <tr>
-                          <td>Fun features like masks and filters</td>
-                          <td>Ads appear frequently</td>
-                        </tr>
-                        <tr>
-                          <td>Large worldwide community</td>
-                          <td>No dedicated mobile app</td>
-                        </tr>
-                        <tr>
-                          <td>Category-based connections</td>
-                          <td>Filters less accurate on free version</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </section>
-                  <p class="app-pricing"><span class="feature-strong">Pricing: </span>100% Free / Optional donation-based support</p>
-                  <section class="app-rating">⭐⭐⭐⭐☆ (4/5)</section>
-                  <a href="https://shagle.com" target="_blank" class="btn-app">Visit Site</a>
-                </li>
-
-              </ul>
-            </section>
-          </section>
-        </section>
+      </section>
     </main>
+
     <footer>
       <section class="container">
         <ul class="social-list">
           <li class="social-items">
-            <a href="#" class="facebook">
+            <a
+              href="https://facebook.com/cadde5"
+              class="facebook"
+              aria-label="Facebook"
+            >
               <i class="fa-brands fa-facebook-f icons"></i>
             </a>
           </li>
           <li class="social-items">
-            <a href="#" class="twitter">
+            <a href="https://x.com/cadde5" class="twitter" aria-label="X">
               <i class="fa-brands fa-square-x-twitter icons"></i>
             </a>
           </li>
           <li class="social-items">
-            <a href="#" class="instagram">
+            <a
+              href="https://instagram.com/cadde5"
+              class="instagram"
+              aria-label="Instagram"
+            >
               <i class="fa-brands fa-square-instagram icons"></i>
             </a>
           </li>
           <li class="social-items">
-            <a href="#" class="youtube">
+            <a
+              href="https://youtube.com/@cadde5"
+              class="youtube"
+              aria-label="YouTube"
+            >
               <i class="fa-brands fa-youtube icons"></i>
             </a>
           </li>
         </ul>
         <span class="footer-license">
-          © 2025 RandomVideoChat.best | All rights reserved.
+          © 2025 Cadde5.net | Tüm hakları saklıdır.
         </span>
       </section>
     </footer>
